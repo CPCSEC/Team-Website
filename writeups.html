@@ -1,0 +1,42 @@
+---
+title: CPCSEC Writeups
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+{% include navbar.html %}
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 m-4">
+        {% for ctf in site.data.writeups %}
+        <div class="col">
+            <div class="card card-flip h-100 text-center">
+                <div class="card-border d-flex flex-column">
+                    <div class="circle-cutout">
+                        <img src="{{ ctf[1].logo }}" alt="{{ ctf[1].name }}">
+                    </div>
+                    <div class="card-content px-2 pt-1">
+                        <div class="row gx-0">
+                            <div class="col-7">
+                                <p class="text-start h2 fw-bold m-0">{{ ctf[1].name | upcase }}</p>
+                                <p class="text-start h3 mb-1">{{ ctf[1].year }}</p>
+                            </div>
+                            <div class="col-5 d-flex flex-column justify-content-end">
+                                <p class="text-end fs-6 my-auto lh-1 fw-bold">rank: {{ ctf[1].rank }}</p>
+                                <p class="text-end fs-6 my-auto lh-1 fw-bold">solved: {{ ctf[1].solved }}</p>
+                                <p class="text-end fs-6 mt-auto mb-2 lh-1 fw-bold">{{ ctf[1].start }} - {{ ctf[1].end }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+      
+</body>
+</html>

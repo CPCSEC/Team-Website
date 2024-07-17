@@ -1,0 +1,47 @@
+TESTCTF:
+  name: TESTCTF
+  year: 2024
+  start: 7/16
+  end: 7/18
+  rank: 290
+  solved: 2
+  logo: /images/logo.png
+  CATEGORIES:
+    MISC:
+      - title: misc challenge 1
+        writeup-link: misc1
+      - title: misc challenge 2
+        writeup-link: misc2
+      - title: misc challenge 3
+        writeup-link: misc3
+    OSINT:
+      - title: osint challenge 1
+        writeup-link: osint1
+      - title: osint challenge 2
+        writeup-link: osint2
+      - title: osint challenge 3
+        writeup-link: osint3
+
+TESTCTF2:
+  name: TESTCTF2
+  logo: /images/logo.png
+  year: 2024
+  start: 12/16
+  end: 12/18
+  rank: 1
+  solved: 30
+  CATEGORIES:
+    MISC:
+      - title: misc challenge 1
+        writeup-link: misc1
+      - title: misc challenge 2
+        writeup-link: misc2
+      - title: misc challenge 3
+        writeup-link: misc3
+    OSINT:
+      - title: osint challenge 1
+        writeup-link: osint1
+      - title: osint challenge 2
+        writeup-link: osint2
+      - title: osint challenge 3
+        writeup-link: osint3

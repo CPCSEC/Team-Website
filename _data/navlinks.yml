@@ -1,0 +1,6 @@
+- name: index.html
+  link: /
+  title: Home
+- name: writeups.html
+  link: /writeups
+  title: Writeups
